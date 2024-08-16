@@ -4,6 +4,8 @@
         <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
         <!-- we import arjs version without NFT but with marker + location based support -->
         <script src="https://raw.githack.com/AR-js-org/AR.js/dev/aframe/build/aframe-ar.js"></script>
+        <!-- we import the gestures js, for allowing pinch-zoom and model rotation -->
+        <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
         <style>
             body{
                 margin:0px;
@@ -26,6 +28,8 @@
                     rotation="0 0 0"
                     scale="1 1 1"
                     gltf-model="assets/3d/toy-ambulance-gltf/scene.gltf"
+                    class="clickable"
+                    gesture-handler="minScale: 0.25; maxScale: 10"
                 >
                 </a-entity>
             </a-marker>
