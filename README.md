@@ -22,7 +22,7 @@ This file contains code that AR.js relies upon for displaying the 3D files.
 
 2\. Next is the AR.js code itself, which you will place below the code added in the previous step. Enter:
 
-`<script src="https://raw.githack.com/AR-js-org/AR.js/dev/aframe/build/aframe-ar.js"></script>`
+`<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>`
 
 This file is what the webpage uses to track the location where the model will display. In the case of this tutorial it will be tracking a paper target.
 
